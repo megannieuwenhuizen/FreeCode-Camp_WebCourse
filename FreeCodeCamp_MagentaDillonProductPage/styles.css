@@ -1,0 +1,110 @@
+.html{
+          display:flex;
+          justify-content:center;
+          align-items:center;
+          }
+#content_main{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+}
+#header{
+          display:flex;
+          justify-content:space-around;
+}
+#email
+{
+          max-width: 500px;
+          align-items: center;
+}
+#header-img{
+
+          width: 170px;
+          height:170px;
+}
+#nav-bar      {
+          display:flex;
+          background-color: #BCC6CC;
+          width: 600px;
+          height: 60px;
+          border-radius: 25px;
+}
+#nav-bar      li {
+          text-align:center;
+          display:flex;
+          justify-content: space-around;
+          align-items:center;
+          border-radius: 25px;
+          width: 150px;
+          height: 50px;
+          font-family: mandhor;
+          color: black;
+          list-style: none;
+          }
+
+#nav-bar      li:hover {
+          background-color:black;
+          color: #BCC6CC;  
+}
+
+.welcome-section{
+          height:100vh;
+          text-align:center;
+          width: 300px;
+          height:150px;
+          font-size:15px;
+          font-family: rockwell;
+          color: #BCC6CC;
+          background-color:rgb(47,79,79,0.6);
+          border-radius: 25px;
+}
+
+
+.feat-section{
+          display:flex;
+          justify-content:center;
+}
+.fcontent p{
+          max-width: 600px;
+}
+.feature{
+          display:flex;
+          justify-content:left;
+          margin-left:10%;
+          flex-direction: row;
+    
+}
+.feat{
+
+          max-width: 150px;
+          max-height:150px;
+}
+
+.pricing-section{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align:center;
+}
+
+.prices{
+  border: 3px black solid;
+   padding-bottom: 20px;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.prices li{
+    text-align: left;
+}
+
+/*        For width 400px and larger: */
+@media    only screen and (min-width: 400px) {
+          body {
+          background-image: url('https://github.com/megannieuwenhuizen/Portfolio-Page/blob/assets/WebBackground.jpg?raw=true');
+    
+          object-fit:fill;
+          }
+}
